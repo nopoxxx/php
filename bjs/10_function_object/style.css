@@ -1,0 +1,47 @@
+body {
+    background-color: #161616;
+}
+
+h3 {
+    text-align: center;
+    font-size: 64px;
+    color: goldenrod;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 0;
+    margin-top: 12%;
+}
+
+.otherInfo {
+    text-align: center;
+    font-size: 36px;
+    color: goldenrod;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 240px;
+}
+
+.buttons button {
+    background-color: rgb(32, 32, 32);
+    text-decoration: none;
+    display: inline-block;
+    margin: 0 20px;
+    padding: 10px 30px;
+    position: relative;
+    border: 2px solid #f1c40f;
+    color: #f1c40f;
+    font-size: xx-large;
+    font-family: 'Montserrat', sans-serif;
+    transition: .4s;
+    font-weight: 700;
+}
+
+.buttons button:hover {
+    padding: 20px 40px;
+    transition: .4s;
+}
+

@@ -3,39 +3,24 @@
 <head>
     <meta charset="UTF-8">
     <title>Генератор случайных пользователей</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans" rel="stylesheet">
-    <link rel="stylesheet" href="style.css" type="text/css"/>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="container">
-    <div class="row game-card align-items-center">
-        <div class="col col-md-6 offset-md-3">
-            <div class="card text-center">
-                <div class="card-header">
-                    <p class="m-0">Окно результатов генерации</p>
-                </div>
-                <div class="card-body">
-                    <div class="row">
-                        <div class="col">
-                            <h3 class="card-title"><span id="FullnameOutput">Генерация ФИО</span></h3>
-                            <p>
-                                <span id="genderOutput">Генерация пола</span>
-                                <span>, </span>
-                                <span id="jobOutput">Генерация профессии</span>                                
-                                <span>, </span>
-                                <span id="birthOutput">Генерация даты рождения</span>
-                            </p>
-                            <button id="generate" type="button" class="btn btn-success">Генерировать</button> 
-                            <button id="clear" type="button" class="btn btn-danger">Очистить</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
+    <div class="window">
+        <h3 class="card-title"><span id="FullnameOutput">Генерация ФИО</span></h3>
+        <p class="otherInfo">
+            <span id="genderOutput">Генерация пола</span>
+            <span>, </span>
+            <span id="jobOutput">Генерация профессии</span>                                
+            <span>, </span>
+            <span id="birthOutput">Генерация даты рождения</span>
+        </p>
+        <div class="buttons">
+        <button id="generate" type="button" class="btn btn-success">Генерировать</button> 
+        <button id="clear" type="button" class="btn btn-danger">Очистить</button>
         </div>
     </div>
-</div>
 <script src="personGenerator.js"></script>
 <script src="init.js"></script>
 </body>
